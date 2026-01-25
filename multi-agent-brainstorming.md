@@ -253,3 +253,4 @@ This skill exists to answer one question with confidence:
 > “If this design fails, did we do everything reasonable to catch it early?”
 
 If the answer is unclear, **do not exit this skill**.
+If this skill was invoked by a routing or orchestration layer, you MUST report the final disposition explicitly as one of: APPROVED, REVISE, or REJECT, with a brief rationale.
